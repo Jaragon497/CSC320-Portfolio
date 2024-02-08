@@ -143,7 +143,7 @@ public class AutomobileInventory {
             else {
                 System.out.println("File will not be printed.");
             }
-
+            sc.close();
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
